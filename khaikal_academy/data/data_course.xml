@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="course_1" model="khaikal_academy.course">
+        <field name="name">Course Technical Odoo</field>
+        <field name="description">Course Technical Odoo 15 CE</field>
+    </record>
+
+    <record id="course_2" model="khaikal_academy.course">
+        <field name="name">Course Technical PHP</field>
+        <field name="description">Course Technical Php Beginner</field>
+    </record>
+
+</odoo>
