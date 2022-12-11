@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- khaikal_academy.course action window -->
+    <record id="khaikal_academy_course_action" model="ir.actions.act_window">
+        <field name="name">Course</field>
+        <field name="res_model">khaikal_academy.course</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->
+    <menuitem id="khaikal_academy_menu_root" name="Khaikal Academy"/>
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="course_menu_act" name="Course" parent="khaikal_academy_menu_root" action="khaikal_academy_course_action" sequence="10"/>
+
+</odoo>
